@@ -78,7 +78,7 @@ st.header("Schritt 2 — Einordnung nach dem AI Act")
 st.subheader("2.1 Verbotene Praktiken (Art. 5 AI Act)")
 st.caption("Ankreuzen, wenn die Aussage auf das geplante System zutrifft.")
 unterschwellig = st.checkbox(
-    "Das System nutzt unterschäwellige Techniken, die eine Person zu deren Schaden wesentlich beeinflussen können.".replace("unterschäwellige", "unterschwellige")
+    "Das System nutzt unterschwellige Techniken, die eine Person zu deren Schaden wesentlich beeinflussen können."
 )
 ausnutzung = st.checkbox(
     "Das System nutzt eine Schutzbedürftigkeit aufgrund von Alter, Behinderung oder sozialer bzw. wirtschaftlicher Lage aus."
@@ -170,7 +170,7 @@ if verarbeitet_pbd:
 
     avv_vorhanden = st.checkbox("Mit dem Anbieter besteht ein Vertrag zur Auftragsverarbeitung nach Art. 28 DSGVO.")
 
-    drittland = st.checkbox("Es erfolgt eine Verarbeitung außerhalb des EWR (Drittlandübermittlung).".replace("Drittlandübermittlung", "Drittlanduebermittlung") if False else "Es erfolgt eine Verarbeitung außerhalb des EWR (Drittlandübermittlung).")
+    drittland = st.checkbox("Es erfolgt eine Verarbeitung außerhalb des EWR (Drittlandübermittlung).")
     drittland_grundlage = False
     if drittland:
         drittland_grundlage = st.checkbox(
