@@ -125,7 +125,7 @@ _PRUEFUNGEN_VERBOTEN = (
     (
         "unterschwellige_beeinflussung",
         "Art. 5 Abs. 1 lit. a AI Act",
-        "Das System nutzt unterschüwellige Techniken, die eine Person zu deren Schaden wesentlich beeinflussen können.".replace("unterschüwellige", "unterschwellige"),
+        "Das System nutzt unterschwellige Techniken, die eine Person zu deren Schaden wesentlich beeinflussen können.",
     ),
     (
         "ausnutzung_schutzbeduerftigkeit",
